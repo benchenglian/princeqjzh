@@ -9,7 +9,7 @@
 # export TOMCAT_APP_PATH=tomcat在部署机器上的路径
 
 cd $PROJ_PATH/princeqjzh
-mvn clean insatll
+mvn clean install
 
 #准备ROOT.war包
 cd $PROJ_PATH/princeqjzh/target
