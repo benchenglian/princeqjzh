@@ -8,7 +8,7 @@ MAINTAINER tester "tester@hogwarts.com"
 RUN rm -rf /usr/local/tomcat/webapps/ROOT
 RUN rm -f /usr/local/tomcat/webapps/ROOT.war
 
- 将新的ROOT.war 复制到镜像中的指定位置
+# 将新的ROOT.war 复制到镜像中的指定位置
 ADD target/ROOT.war /usr/local/tomact/webapps
 
 # 对外暴露8080端口
