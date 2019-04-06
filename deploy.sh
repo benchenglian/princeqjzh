@@ -17,9 +17,9 @@ mv order.war ROOT.war
 
 #制作新的docker image - iweb
 cd $PROJ_PATH/princeqjzh
-docker stop orderObj
-docker rm orderObj
-docker rmi order
+#docker stop orderObj
+#docker rm orderObj
+#docker rmi order
 docker build -t order .
 
 # 启动docker image，宿主机暴露端口 8111
